@@ -1,11 +1,12 @@
 import {Component, Template, For} from 'angular2/angular2';
+import {CarDetails} from 'car';
 
 @Component({
   selector: "car-list"
 })
 @Template({
   url: "car-list.html",
-  directives: [For]
+  directives: [For, CarDetails]
 })
 export class CarList {
   constructor() {
