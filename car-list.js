@@ -4,8 +4,8 @@ import {CarDetails} from 'car';
 @Component({
   selector: "car-list"
 })
-@Template({
-  url: "car-list.html",
+@View({
+  templateUrl: "car-list.html",
   directives: [For, CarDetails]
 })
 export class CarList {

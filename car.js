@@ -1,13 +1,13 @@
-import {Component, Template, For} from 'angular2/angular2';
+import {Component, View, For} from 'angular2/angular2';
 
 @Component({
   selector: "car-details",
-  bind: {
+  properties: {
     car: "car"
   }
 })
-@Template({
-  url: "car.html",
+@View({
+  templateUrl: "car.html",
 })
 export class CarDetails {
   car;
