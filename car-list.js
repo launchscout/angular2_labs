@@ -15,4 +15,9 @@ export class CarList {
       {make: "Ford", model: "Fairlane"}
     ];
   }
+  addCar() {
+    this.cars.push({make: "Honda", model: "Accord"});
+  }
+
+
 }
