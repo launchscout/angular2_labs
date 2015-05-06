@@ -4,7 +4,7 @@ import {Component, Template, bootstrap} from 'angular2/angular2';
   selector: "my-app"
 })
 @Template({
-  inline: "Hello from angular 2 to {{name}}"
+  url: "my-app.html"
 })
 class MyAppComponent {
   constructor() {
